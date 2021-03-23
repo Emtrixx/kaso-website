@@ -100,7 +100,8 @@ h3 {
 } */
 
 #bio-card {
-    background-color:rgba(255, 255, 255, 0.2);
+    background-color:rgba(173, 42, 42, 0.2);
+    background-color: rgba(0,0,0,0.4) !important;
 }
 
 .bio-text {
