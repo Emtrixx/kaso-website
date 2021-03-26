@@ -13,18 +13,18 @@ body {
 
 /* TO-DO gradient border navbar
 items animation und rot
-bilder block
-bilder shadow gradient
 farbpalette dunkler
 fonts bei Quote und Bio-Text
-contact dunkel
 neuer quote und artikel maybe
-abstand sections
-überschriften zentrieren?
 sections layout überarbeiten damit das ganze etwas runder und weniger dahingeklatsch DIY aussieht
 rand der bio box damit das ganze etwas runder und weniger dahingeklatsch DIY aussieht
-links sichtbarkeit
 music neue releases kacheln, wechselnder player -download: mp3,spotifycover
+links sichtbarkeit
+abstand sections
++contact dunkel
++bilder shadow gradient
++überschriften zentrieren?
++bilder block
 */
 .navbar {
     font-family: 'saturdayrock';
@@ -47,6 +47,8 @@ music neue releases kacheln, wechselnder player -download: mp3,spotifycover
 
 .nav-link:hover {
     text-shadow: 3px 3px #ff0009;
+    /* font-size: larger;
+    padding: 0; */
 }
 
 .nav-item {
@@ -109,7 +111,7 @@ h3 {
     color: white;
 }
 
-img {
+.photos img {
     margin-bottom: 3rem;
     box-shadow: 10px 5px 5px rgb(31, 31, 31);
 }
