@@ -109,6 +109,11 @@ h3 {
     color: white;
 }
 
+img {
+    margin-bottom: 3rem;
+    box-shadow: 10px 5px 5px rgb(31, 31, 31);
+}
+
 /* colors
 background-color: rgba(233, 196, 214, 1.0);
 background-color: rgba(201, 107, 84, 1.0);
