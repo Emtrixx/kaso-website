@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'SaturdayRock';
+    src: url('./fonts/Saturday\ Rock.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/Saturday\ Rock.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/Saturday\ Rock.otf') format('otf');
+  }
+
+body {
+    background-color: rgb(233, 196, 214);
+}
+
+.navbar {
+    font-family: 'saturdayrock';
+    font-size: large;
+    font-weight: bold;
+}
+s
+.navbar-brand {
+    font-size: 47px;
+    text-shadow: 3px 3px #ff0009;
+    color: white;
+}
+
+#hero {
+    background-image: url('./images/KASO_FOTOS_01-01061.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.icon-bar {
+    background-color: #fff;
+    border-top: 1px solid #2f2d2d;
+    border-bottom: 1px solid #2f2d2d;
+    border-left: 1px solid #2f2d2d;
+    position: fixed;
+    right: 0;
+    top: 55%;
+    transform: translatey(-50%);
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 4px;
+    transition: all .3s ease;
+    color: white;
+    font-size: 30px;
+}

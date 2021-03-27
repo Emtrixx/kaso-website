@@ -8,6 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Quicksand&display=swap" rel="stylesheet">
+        
     <title>Kaso Official</title>
 </head>
 
@@ -80,12 +83,12 @@
             <a href="https://music.apple.com/us/artist/kaso/1530547012" target="_blank" class="apple"><img
                     src="/logos/apple-logo1.png" alt="apple logo"></a>
             <a href="https://www.youtube.com/channel/UCHjxK-xFD5lZdibDPNz4VpQ?view_as=subscriber" target="_blank"
-                class="youtube"><img src="/logos/youtube1.png" alt="youtube logo"></a>
-            <a href="https://soundcloud.com/kaso_m" target="_blank" class="soundcloud"><img src="/logos/soundcloud1.png"
+                class=""><img src="/logos/youtube1.png" alt="youtube logo"></a>
+            <a href="https://soundcloud.com/kaso_m" target="_blank" class=""><img src="/logos/soundcloud1.png"
                     alt="soundcloud logo"></a>
         </div>
         <div class="container">
-            <section id="quote" class="row my-5 justify-content-md-center">
+            <section id="quote" class="row my-5 justify-content-md-center shadow">
                 <div class="col-lg-6 p-5">
                     <figure class="text-center">
                         <blockquote class="blockquote">
@@ -100,7 +103,7 @@
 
             
 
-            <section id="bio" class="row my-5 py-5 justify-content-md-center">
+            <section id="bio" class="row my-5 py-5 justify-content-md-center shadow">
                 <div class="col-lg-8">
                     <h3>BIO</h5>
                         <div id="bio-card" class="card text-white bg-dark">
@@ -132,23 +135,21 @@
                 </div>
             </section>
 
-            <section id="video" class="row my-5 py-5 justify-content-md-center">
+            <section id="video" class="row my-5 py-5 justify-content-md-center shadow">
                 <div class="col-lg-8">
                     <h3>VIDEO</h3>
                     <div class="ratio ratio-16x9 col-lg-6">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/G-a_f_LhF_4"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                        <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/3RNruxfOf74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
 
             </section>
 
-            <section id="music" class="row my-5 py-5 justify-content-md-center">
+            <section id="music" class="row my-5 py-5 justify-content-md-center shadow">
+                
                 <div class="col-lg-6">
                     <h3>MUSIC</h3>
-                    <iframe width="100%" height="150" scrolling="no" frameborder="no" allow="autoplay"
+                    <!-- <iframe class="soundcloud" width="100%" height="150" scrolling="no" frameborder="no" allow="autoplay"
                         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/892024321&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                     <div
                         style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
@@ -156,27 +157,40 @@
                             style="color: #cccccc; text-decoration: none;">Kaso</a> · <a
                             href="https://soundcloud.com/kaso_m/city-of-stars" title="City Of Stars" target="_blank"
                             style="color: #cccccc; text-decoration: none;">City Of Stars</a>
-                    </div>
+                    </div> -->
+                    <iframe class="soundcloud" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/934401364&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kaso_m" title="Kaso" target="_blank" style="color: #cccccc; text-decoration: none;">Kaso</a> · <a href="https://soundcloud.com/kaso_m/forbidden-fruits" title="Forbidden Fruits" target="_blank" style="color: #cccccc; text-decoration: none;">Forbidden Fruits</a></div>
                     <div class="btn-group" role="group" aria-label="Stream-Download">
                         <a type="button" class="btn btn-dark" href="https://kaso.fanlink.to/City_of_Stars"
                             target="_blank">Stream</a>
                         <!-- TO DO - Link mp3 -->
-                        <a type="button" class="btn btn-dark" href="">Download File</a>
+                        <a type="button" class="btn btn-dark" href="">Download</a>
+                    </div>
+                    
+                
+                <div class="row mt-5">
+                    <h5 class="text-white">Songs</h5>
+                    <div class="col-6 kacheln">
+                        <img src="/images/Artwork - Kaso - Forbidden Fruits.jpg" class="img-fluid kachel" alt="Forbidden Fruits Cover">
+                    </div>
+                    <div class="col-6 kacheln">
+                        <img src="/images/Artwork - Kaso - City of Stars.jpg" class="img-fluid kachel" alt="City_of_Stars Cover">
                     </div>
                 </div>
+            </div>
+                
             </section>
 
-            <section id="photos" class="row my-5 py-5 justify-content-md-center">
+            <section id="photos" class="row my-5 py-5 justify-content-md-center shadow">
                 <div class="col-lg-6 photos">
                     <h3>PHOTOS</h3>
+                                <img src="/images/Kaso Press Kit Photo 3.JPG" class="d-block w-100"
+                                 alt="presskit-photo3">
+
                                 <img src="/images/Kaso Press Kit Photo 1.JPG" class="d-block w-100"
                                     alt="presskit-photo1">
                             
                                 <img src="/images/Kaso Press Kit Photo 2.JPG" class="d-block w-100"
                                     alt="presskit-photo2">
-                            
-                                <img src="/images/Kaso Press Kit Photo 3.JPG" class="d-block w-100"
-                                    alt="presskit-photo3">
                             
                                 <img src="/images/Kaso Press Kit Photo 4.JPG" class="d-block w-100"
                                     alt="presskit-photo4">
@@ -186,15 +200,15 @@
                 </div>
             </section>
 
-            <section id="contact" class="row my-5 py-5 justify-content-md-center">
+            <section id="contact" class="row my-5 py-5 justify-content-md-center shadow">
                 <div class="col-lg-4">
                     <h3>CONTACT</h3>
-                    <div class="card text-white bg-dark">
+                    <div class="card text-white bg-dark contact">
                         <!-- <img src="./images/email.png" class="card-img-top p-3" alt="email-logo"> -->
                         <div class="card-body">
                             <h5 class="card-title">E-Mail</h5>
                             <p class="card-text">kaso.nausad.madhosh@gmail.com</p>
-                            <a href="mailto:management@kaso-official.com" class="btn btn-light">Write</a>
+                            <a href="mailto:kaso.nausad.madhosh@gmail.com" class="btn btn-light">Contact</a>
                         </div>
                     </div>
                 </div>
@@ -210,6 +224,7 @@
             </div>
         </div>
     </footer>
+    <script src="/js/musicSelector.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
