@@ -1,10 +1,12 @@
-const kacheln = document.querySelector(".kachel");
+const kacheln = document.querySelectorAll(".kachel");
+const scplayer = document.querySelector(".soundcloud");
+
+console.log(scplayer);
 
 
-for (const kachel of kacheln) {
-    kachel.addEventListener("click", switchSong())
+for(kachel of kacheln) {
+    kachel.addEventListener("click", function() {
+        console.log(scplayer.src)
+    })
 }
 
-function switchSong() {
-    alert("Test")
-}
