@@ -129,13 +129,13 @@ h3 {
 .photos img, .kacheln img, .soundcloud, .contact, .youtube{
     box-shadow: 7px 7px 5px rgba(31, 31, 31, 0.521);
 }
+
 .soundcloud {
     margin-bottom: 10px;
 }
 
-
 .photos img {
-    margin-bottom: 3rem;
+    padding: 0;
 }
 
 /* colors
