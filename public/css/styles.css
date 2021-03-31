@@ -67,7 +67,7 @@ download: mp3,spotifycover
     background-size: cover;
     background-position: center;
     height: 100vh;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.938);
+    box-shadow: inset 0px -20px 20px 0px rgb(0 0 0 / 94%);
 }
 
 h3 {
@@ -120,6 +120,20 @@ h3 {
 .bio-text {
     color: white;
     
+}
+
+.kachel {
+    cursor:pointer;
+}
+
+.kachel:hover {
+    filter:blur(0.8)
+}
+
+.kacheln {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
 }
 
 .photos img, .kacheln img, .soundcloud, .contact, .youtube{
