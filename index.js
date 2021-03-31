@@ -11,6 +11,9 @@ app.get('/', (req, res) => {
     res.render('index');
 })
 
+app.get('/impressum', (req,res) => {
+    res.render('impressum');
+})
 
 app.all('*', (req,res,next) => {
     // res.status(404).render("notFound");
