@@ -166,3 +166,7 @@ section:nth-child(2n + 1) {
 .shadow {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.521)  !important;
 }
+
+footer div {
+    text-align: center;
+}
