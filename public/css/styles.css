@@ -46,6 +46,7 @@ download: mp3,spotifycover
 .nav-link {
     color: white !important;
     letter-spacing: 4px;
+    display: inline-block;
     transition: 200ms;
 }
 
