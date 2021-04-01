@@ -27,7 +27,6 @@ download: mp3,spotifycover
 */
 
 .card-link {
-    display: block;
     margin-bottom: 10px;
 }
 .navbar {
@@ -47,9 +46,7 @@ download: mp3,spotifycover
 .nav-link {
     color: white !important;
     letter-spacing: 4px;
-    display: inline-block;
     transition: 200ms;
-    line-height: 2rem;
 }
 
 .nav-link:hover {
