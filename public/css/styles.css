@@ -118,6 +118,12 @@ h3 {
     
 }
 
+.btn-dark {
+    color: #fff !important;
+    background-color: #212529 !important;
+    border-color: #212529 !important;
+}
+
 .kachel {
     cursor:pointer;
     transition: 300ms;
