@@ -103,7 +103,7 @@ h3 {
 }
 
 [type=button], [type=reset], [type=submit], button {
-    -webkit-appearance: auto;
+    -webkit-appearance: none;
 }
 
 
