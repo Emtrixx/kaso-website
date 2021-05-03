@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(233, 196, 214);
+}
+
+.navbar-brand {
+    font-family: 'saturdayrock';
+    font-size: 47px;
+    text-shadow: 3px 3px #ff0009;
+    color: white;
+}

@@ -25,6 +25,7 @@ app.use((err,req,res,next) => {
     res.status(statusCode).render('error', {message, stack});
 })
 
-app.listen("4000", () => {
-    console.log("Server gestartet");
+const port = 4000
+app.listen(port, () => {
+    console.log("Server gestartet " + port);
 })

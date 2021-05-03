@@ -64,7 +64,7 @@ download: mp3,spotifycover
     background-size: cover;
     background-position: center;
     height: 100vh;
-    box-shadow: inset 0px -50px 65px 0px rgb(0 0 0 / 94%);
+    box-shadow: inset 0px -50px 65px -15px rgb(0 0 0 / 94%);
 }
 
 h3 {
